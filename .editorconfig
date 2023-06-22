@@ -1,0 +1,41 @@
+# EditorConfig is a file format that helps maintain consistent coding styles across different editors and IDEs.
+# For more information, visit http://editorconfig.org/
+
+# Top-most EditorConfig file
+root = true
+
+# SQL files
+[*.{sql}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Java files
+[*.{java}]
+charset = utf-8
+indent_style = tab
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Spring Boot properties files
+[*.{properties,yml,yaml}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown files
+[*.{md}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
